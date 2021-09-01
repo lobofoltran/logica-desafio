@@ -2,7 +2,7 @@
 using namespace std;
 
 int main (){
-	string escolha, adicao, subtracao, divisao, multiplicacao;
+	string escolha;
 	float n1;
 	float n2;
 	float resultado;
