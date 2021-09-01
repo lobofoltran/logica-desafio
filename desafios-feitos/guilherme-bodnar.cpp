@@ -1,3 +1,4 @@
+// Alunos: Gustavo Lobo e André Luiz.
 #include<iostream>
 
 int main () {
@@ -11,10 +12,12 @@ int main () {
 	std::cout 	<< "Digite a forca (N): ";
 	std::cin 	>> fr;
 	
-	//formulas
+	// Fórmulas
 	a = fr / m;
 
 	std::cout 	<< "Aceleracao: " << a;
+	
+	// A massa deverá ser 20kg e a força deverá ser 220N.
 	
 	return 0;
 }
