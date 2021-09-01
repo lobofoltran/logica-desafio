@@ -12,8 +12,8 @@ int main () {
 	
 	if (salario < 1900) {
 		
-		cout	<< endl << "Imposto cobrado (0% de imposto): " << "0" << endl;			// Neste exemplo a Fórmula de Salário será sempre 0.
-		cout	<< "Salario (sem imposto): " << salario; 								// Quando o salário for menor que 1900, não haverá cobrança de impostos.
+		cout	<< endl << "Imposto cobrado (0% de imposto): " << "0" << endl;	// Neste exemplo a Fórmula de Salário será sempre 0.
+		cout	<< "Salario (sem imposto): " << salario; 			// Quando o salário for menor que 1900, não haverá cobrança de impostos.
 		
 	} else if (salario >= 1900 && salario < 2500) {
 		
@@ -21,7 +21,7 @@ int main () {
 		salarioForm2 = salario - salarioForm; 	// A seguir calculamos o valor do Salário menos o imposto.
 		
 		cout	<< endl << "Imposto cobrado (2% de imposto): " << salarioForm << endl; 	// Resultado da Fórmula de porcentagem.
-		cout	<< "Salario (-2% de imposto): " << salarioForm2; 						// Resultado da Fórmula de Salário menos Porcentagem de imposto.
+		cout	<< "Salario (-2% de imposto): " << salarioForm2; 			// Resultado da Fórmula de Salário menos Porcentagem de imposto.
 		
 	} else if (salario >= 2500 && salario < 3700) {
 		salarioForm = ( salario * 3 ) / 100;
@@ -41,8 +41,6 @@ int main () {
 		cout	<< endl << "Imposto cobrado (6% de imposto): " << salarioForm << endl;
 		cout	<< "Salario (-6% de imposto): " << salarioForm2;
 	}
-	
-	cout	<< endl << endl << "Alunos criadores: Gustavo Lobo e Andre Luiz.";
 	
 	return 0;
 }
