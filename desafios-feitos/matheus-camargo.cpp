@@ -1,3 +1,4 @@
+// Alunos: Gustavo Lobo e André Luiz.
 #include<iostream>
 using namespace std;
 
@@ -6,7 +7,7 @@ int main () {
 	int pretensao = 0;
 	
 	cout	<< "Insira o seu nome: ";
-	getline(cin, nome2); // Usado para pegar o nome completo.
+	getline(cin, nome2); // Função getline utilizada para pegar o nome completo.
 	
 	cout	<< "Insira a sua pretensao salarial: ";
 	cin	>> pretensao;
