@@ -1,6 +1,10 @@
 #include<iostream>
+#include <clocale>
 
 int main () {
+	
+	setlocale(LC_ALL, "Portuguese");
+	
 	float m = 0;
 	float po = 0;
 	float pe = 0;
