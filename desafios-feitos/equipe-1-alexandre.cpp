@@ -39,5 +39,5 @@ int main () {
     // Bkashara solicitada (por no algoritmo): a = 3x²; b = -2x; c = -8.
     // Resultados: Raiz 1: 2; Raiz 2: -1.333.
     
-return 0;
+	return 0;
 }
