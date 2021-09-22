@@ -1,9 +1,9 @@
-/* Estabeleça se a pessoa quer perder, manter 
-ou engordar o seu peso e efetue um algoritmo de 
-escolha das 3 opções, após a escolha, estabelecer 
-quantos KG a pessoa tem para efetuar a conversão de 
-Quilograma em Calorias, independente da opção escolhida, 
-o resultado deve conter o mínimo e o máximo de calorias 
+/* Estabeleça se a pessoa quer perder, manter ou 
+engordar o seu peso e efetue um algoritmo de escolha 
+das 3 opções, após a escolha, estabelecer quantos KG 
+a pessoa tem para efetuar a conversão de Quilograma em 
+Calorias, independente da opção escolhida, o resultado 
+deve conter o mínimo e o máximo de calorias 
 de acordo com os seguintes dados:
 Para emagrecer - multiplique 20 ou 25 pelo peso escolhido
 Para manter o peso - multiplique 25 ou 30 pelo peso escolhido
@@ -26,7 +26,7 @@ int main () {
 	std::cout	<< std::endl << "Digite seu peso em quilogramas (kg): ";
 	std::cin	>> peso;
 	} else {
-		std::cout << std::endl << "Faça uma escolha correta!";
+		std::cout	<< std::endl << "Faça uma escolha correta!";
 		return 0;
 	}
 	
@@ -35,15 +35,15 @@ int main () {
 		pesoForm = peso * 20;
 		pesoForm2 = peso * 25;
 		// Resultado
-		std::cout << std::endl << "Resultado: Consuma no mínimo " << pesoForm << " e no máximo " << pesoForm2 << " calorias.";
+		std::cout	<< std::endl << "Resultado: Consuma no mínimo " << pesoForm << " e no máximo " << pesoForm2 << " calorias.";
 	} else if (escolha == 2) {
 		pesoForm = peso * 25;
 		pesoForm2 = peso * 30;
-		std::cout << std::endl << "Resultado: Consuma no mínimo " << pesoForm << " e no máximo " << pesoForm2 << " calorias.";
+		std::cout	<< std::endl << "Resultado: Consuma no mínimo " << pesoForm << " e no máximo " << pesoForm2 << " calorias.";
 	} else if (escolha == 3) {
 		pesoForm = peso * 30;
 		pesoForm2 = peso * 35;
-		std::cout << std::endl << "Resultado: Consuma no mínimo " << pesoForm << " e no máximo " << pesoForm2 << " calorias.";
+		std::cout	<< std::endl << "Resultado: Consuma no mínimo " << pesoForm << " e no máximo " << pesoForm2 << " calorias.";
 	}
 	
 	return 0;
