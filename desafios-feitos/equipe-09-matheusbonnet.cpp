@@ -18,7 +18,7 @@ int main () {
 	
 	if (salario < 1900) {
 		std::cout	<< std::endl << "Imposto cobrado (0% de imposto): R$ " << "0" << std::endl; // Neste exemplo a Fórmula de Salário será sempre 0.
-		std::cout	<< "Salário (sem imposto): R$ " << salario;				 // Quando o salário for menor que 1900, não haverá cobrança de impostos.
+		std::cout	<< "Salário (sem imposto): R$ " << salario;				    // Quando o salário for menor que 1900, não haverá cobrança de impostos.
 	} else if (salario >= 1900 && salario < 2500) {
 		salarioForm = ( salario * 2 ) / 100; 							// Formúla = Cálculo de Imposto. (Salário * 2) / 100 (2 seria de 2% seria o valor do imposto). 
 		salarioForm2 = salario - salarioForm; 							// A seguir calculamos o valor do Salário menos o imposto.
