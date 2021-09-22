@@ -21,43 +21,44 @@ int main () {
 		std::cout << std::endl << "--- * Calculadora de Adição * ---";
 		
 		// Recebendo os dados
-		std::cout << std::endl << "Digite um numero: ";
+		std::cout << std::endl << "Digite um número: ";
 		std::cin >> numero1;
-		std::cout << "Digite outro numero: ";
+		std::cout << "Digite outro número: ";
 		std::cin >> numero2;
 		
 		// Fórmula
 		resultado = numero1 + numero2;
 		
-		// Resultado
-		std::cout << std::endl << "Resultado: " << resultado;
-		
 	} else if (escolha == "-") {
 		std::cout << std::endl << "--- * Calculadora de Subtração * ---";
-		std::cout << std::endl << "Digite um numero: ";
+		std::cout << std::endl << "Digite um número: ";
 		std::cin >> numero1;
-		std::cout << "Digite outro numero: ";
+		std::cout << "Digite outro número: ";
 		std::cin >> numero2;
 		resultado = numero1 - numero2;
-		std::cout << std::endl << "Resultado: " << resultado;
 	} else if (escolha == "/") {
 		std::cout << std::endl << "--- * Calculadora de Divisão * ---";
-		std::cout << std::endl << "Digite um numero: ";
+		std::cout << std::endl << "Digite um número: ";
 		std::cin >> numero1;
-		std::cout << "Digite outro numero: ";
+		std::cout << "Digite outro número: ";
 		std::cin >> numero2;
 		resultado = numero1 / numero2;
-		std::cout << std::endl << "Resultado: " << resultado;
 		} else if (escolha == "*") {
 		std::cout << std::endl << "--- * Calculadora de Multiplicação * ---";
-		std::cout << std::endl << "Digite um numero: ";
+		std::cout << std::endl << "Digite um número: ";
 		std::cin >> numero1;
-		std::cout << "Digite outro numero: ";
+		std::cout << "Digite outro número: ";
 		std::cin >> numero2;
 		resultado = numero1 * numero2;
-		std::cout << std::endl << "Resultado: " << resultado;
 		} else {
 		std::cout << std::endl << "Digite um dado válido! Apenas (+), (-), (/) ou (*)!";
+		return 0;
+	}
+	
+	if (resultado < 0) {
+		std::cout	<< std::endl << "Resultado negativo convertido para positivo: " << resultado * (-1);
+	} else {
+		std::cout	<< std::endl << "Resultado: " << resultado;
 	}
 	
 	return 0;
