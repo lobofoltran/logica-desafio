@@ -25,15 +25,15 @@ int main () {
 		std::cin >> numero1;
 		if (numero1 != 0) {
 		} else {
-		std::cout << std::endl << "Por favor digite um número válido! (Ou maior que 0)";
-		return 0;
+			std::cout << std::endl << "Por favor digite um número válido! (Ou maior que 0)";
+			return 0;
 		}
 		std::cout << "Digite outro número: ";
 		std::cin >> numero2;
 		if (numero2 != 0) {
 		} else {
-		std::cout << std::endl << "Por favor digite um número válido! (Ou maior que 0)";
-		return 0;
+			std::cout << std::endl << "Por favor digite um número válido! (Ou maior que 0)";
+			return 0;
 		}
 		
 		// Fórmula
@@ -45,15 +45,15 @@ int main () {
 		std::cin >> numero1;
 		if (numero1 != 0) {
 		} else {
-		std::cout << std::endl << "Por favor digite um número válido! (Ou maior que 0)";
-		return 0;
+			std::cout << std::endl << "Por favor digite um número válido! (Ou maior que 0)";
+			return 0;
 		}
 		std::cout << "Digite outro número: ";
 		std::cin >> numero2;
 		if (numero2 != 0) {
 		} else {
-		std::cout << std::endl << "Por favor digite um número válido! (Ou maior que 0)";
-		return 0;
+			std::cout << std::endl << "Por favor digite um número válido! (Ou maior que 0)";
+			return 0;
 		}
 		resultado = numero1 - numero2;
 	} else if (escolha == "/") {
@@ -62,35 +62,35 @@ int main () {
 		std::cin >> numero1;
 		if (numero1 != 0) {
 		} else {
-		std::cout << std::endl << "Por favor digite um número válido! (Ou maior que 0)";
-		return 0;
+			std::cout << std::endl << "Por favor digite um número válido! (Ou maior que 0)";
+			return 0;
 		}
 		std::cout << "Digite outro número: ";
 		std::cin >> numero2;
 		if (numero2 != 0) {
 		} else {
-		std::cout << std::endl << "Por favor digite um número válido! (Ou maior que 0)";
-		return 0;
+			std::cout << std::endl << "Por favor digite um número válido! (Ou maior que 0)";
+			return 0;
 		}
 		resultado = numero1 / numero2;
-		} else if (escolha == "*") {
+	} else if (escolha == "*") {
 		std::cout << std::endl << "--- * Calculadora de Multiplicação * ---" << std::endl;
 		std::cout << std::endl << "Digite um número: ";
 		std::cin >> numero1;
 		if (numero1 != 0) {
 		} else {
-		std::cout << std::endl << "Por favor digite um número válido! (Ou maior que 0)";
-		return 0;
+			std::cout << std::endl << "Por favor digite um número válido! (Ou maior que 0)";
+			return 0;
 		}
 		std::cout << "Digite outro número: ";
 		std::cin >> numero2;
 		if (numero2 != 0) {
 		} else {
-		std::cout << std::endl << "Por favor digite um número válido! (Ou maior que 0)";
-		return 0;
+			std::cout << std::endl << "Por favor digite um número válido! (Ou maior que 0)";
+			return 0;
 		}
 		resultado = numero1 * numero2;
-		} else {
+	} else {
 		std::cout << std::endl << "Digite um dado válido! Apenas (+), (-), (/) ou (*)!";
 		return 0;
 	}
