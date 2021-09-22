@@ -44,7 +44,7 @@ int main () {
 	std::cin	>> c2;
 	
 	// Fórmula Triângulo 2:
-	p2 = a2 + b2 + c2 / 2;
+	p2 = (a2 + b2 + c2) / 2;
 	
 	std::cout 	<< std::endl << "Área do Triângulo 2: " << p2;
 	
