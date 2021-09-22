@@ -10,12 +10,12 @@ Area Raíz p (p-a) (p-b) (p-c), onde p = (a + b + c) / 2 */
 #include <clocale>
 
 int main () {
-	float a1 = 0; // Área A do Triângulo 1
-	float b1 = 0; // Área B do Triângulo 1
-	float c1 = 0; // Área C do Triângulo 1
-	float a2 = 0; // Área A do Triângulo 2
-	float b2 = 0; // Área B do Triângulo 2
-	float c2 = 0; // Área C do Triângulo 2
+	float a1 = 0; // Medida A do Triângulo 1
+	float b1 = 0; // Medida B do Triângulo 1
+	float c1 = 0; // Medida C do Triângulo 1
+	float a2 = 0; // Medida A do Triângulo 2
+	float b2 = 0; // Medida B do Triângulo 2
+	float c2 = 0; // Medida C do Triângulo 2
 	float p1 = 0; // Área Raiz do Triângulo 1
 	float p2 = 0; // Área Raiz do Triângulo 2
 	setlocale(LC_ALL,"Portuguese");
@@ -48,12 +48,13 @@ int main () {
 	
 	std::cout 	<< std::endl << "Área do Triângulo 2: " << p2;
 	
+	// Condicional para dizer se o triângulo é maior, menor ou de mesma Área Raiz.
 	if (p1 == p2) {
-		std::cout	<< std::endl << std::endl << "Área dos Triângulos Iguais";
+		std::cout	<< std::endl << std::endl << "Área Raiz dos Triângulos Iguais";
 	} else if (p1 < p2) {
-		std::cout	<< std::endl << std::endl << "Área do Triângulo 2 maior";
+		std::cout	<< std::endl << std::endl << "Área Raiz do Triângulo 2 maior";
 	} else if (p1 > p2) {
-		std::cout	<< std::endl << std::endl << "Área do Triângulo 1 maior";
+		std::cout	<< std::endl << std::endl << "Área Raiz do Triângulo 1 maior";
 	}
 	
 	return 0;
