@@ -26,7 +26,7 @@ int main () {
 	std::cout	<< std::endl << "Digite seu peso em quilogramas (kg): ";
 	std::cin	>> peso;
 	} else {
-		std::cout	<< std::endl << "Faça uma escolha correta!";
+		std::cout << std::endl << "Faça uma escolha correta!";
 		return 0;
 	}
 	
@@ -35,15 +35,15 @@ int main () {
 		pesoForm = peso * 20;
 		pesoForm2 = peso * 25;
 		// Resultado
-		std::cout	<< std::endl << "Resultado: Consuma no mínimo " << pesoForm << " e no máximo " << pesoForm2 << " calorias.";
+		std::cout << std::endl << "Resultado: Consuma no mínimo " << pesoForm << " e no máximo " << pesoForm2 << " calorias.";
 	} else if (escolha == 2) {
 		pesoForm = peso * 25;
 		pesoForm2 = peso * 30;
-		std::cout	<< std::endl << "Resultado: Consuma no mínimo " << pesoForm << " e no máximo " << pesoForm2 << " calorias.";
+		std::cout << std::endl << "Resultado: Consuma no mínimo " << pesoForm << " e no máximo " << pesoForm2 << " calorias.";
 	} else if (escolha == 3) {
 		pesoForm = peso * 30;
 		pesoForm2 = peso * 35;
-		std::cout	<< std::endl << "Resultado: Consuma no mínimo " << pesoForm << " e no máximo " << pesoForm2 << " calorias.";
+		std::cout << std::endl << "Resultado: Consuma no mínimo " << pesoForm << " e no máximo " << pesoForm2 << " calorias.";
 	}
 	
 	return 0;
